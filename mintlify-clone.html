@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mintlify Hero Clone</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-[#02152e] text-white overflow-x-hidden">
+
+  <!-- HERO -->
+  <section
+    class="relative min-h-screen bg-cover bg-center"
+    style="background-image: url('https://www.mintlify.com/hero/bg-dark.webp');"
+  >
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-[#02152e]/60"></div>
+
+    <!-- Navbar -->
+    <header class="relative z-20 max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+
+      <!-- Logo -->
+      <div class="flex items-center gap-2">
+        <div class="w-7 h-7 rounded-full bg-emerald-400"></div>
+        <h1 class="text-3xl font-bold">mintlify</h1>
+      </div>
+
+      <!-- Nav Links -->
+      <nav class="hidden md:flex items-center gap-10 text-lg text-white/90">
+        <a href="#" class="hover:text-white transition">Resources</a>
+        <a href="#" class="hover:text-white transition">Documentation</a>
+        <a href="#" class="hover:text-white transition">Customers</a>
+        <a href="#" class="hover:text-white transition">Blog</a>
+        <a href="#" class="hover:text-white transition">Pricing</a>
+      </nav>
+
+      <!-- Buttons -->
+      <div class="hidden md:flex items-center gap-4">
+        <button class="px-6 py-3 rounded-full bg-white/10 border border-white/10 hover:bg-white/20 transition">
+          Contact sales
+        </button>
+
+        <button class="px-6 py-3 rounded-full bg-white text-black font-semibold hover:bg-gray-200 transition">
+          Start for free
+        </button>
+      </div>
+
+    </header>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 flex items-center justify-center text-center px-6">
+
+      <div class="max-w-5xl pt-20">
+
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-4 px-3 py-2 rounded-full bg-white/10 border border-white/10 backdrop-blur-md mb-10">
+
+          <span class="bg-emerald-500 text-white text-sm font-semibold px-3 py-1 rounded-full">
+            NEW
+          </span>
+
+          <span class="text-lg text-white/90">
+            Workflows for self-updating knowledge management
+          </span>
+
+          <span class="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center">
+            →
+          </span>
+
+        </div>
+
+        <!-- Heading -->
+        <h1 class="text-6xl md:text-8xl font-extrabold leading-tight tracking-tight">
+          The Intelligent <br />
+          Knowledge Platform
+        </h1>
+
+        <!-- Description -->
+        <p class="mt-8 text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+          Helping teams create and maintain world-class
+          documentation built for both humans and AI
+        </p>
+
+        <!-- Input -->
+        <div class="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+
+          <div class="flex items-center bg-white/10 backdrop-blur-xl border border-white/10 rounded-full p-2 w-full max-w-2xl">
+
+            <input
+              type="email"
+              placeholder="Email address"
+              class="bg-transparent flex-1 px-5 py-4 outline-none text-lg placeholder:text-white/50"
+            />
+
+            <button class="bg-white text-black font-semibold px-8 py-4 rounded-full hover:bg-gray-200 transition">
+              Start now
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- SHOWCASE SECTION -->
+<section class="relative -mt-10 pb-24 px-6 bg-[#02152e] overflow-hidden">
+
+  <!-- Glow -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-emerald-500/20 blur-[120px] rounded-full"></div>
+
+  <!-- Main Card -->
+  <div class="relative z-10 max-w-7xl mx-auto rounded-[32px] border border-white/10 bg-black/70 backdrop-blur-xl overflow-hidden shadow-2xl">
+
+    <div class="flex min-h-[780px]">
+
+      <!-- SIDEBAR -->
+      <aside class="w-[280px] border-r border-white/10 p-6 hidden lg:block">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-2 mb-10">
+          <div class="w-6 h-6 rounded-full bg-emerald-400"></div>
+          <h2 class="text-3xl font-bold">mintlify</h2>
+        </div>
+
+        <!-- Menu -->
+        <div class="space-y-2 text-[17px]">
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:bg-white/5 cursor-pointer">
+            ✦ <span>Ask Assistant</span>
+          </div>
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl bg-emerald-500/20 text-emerald-400 font-medium">
+            <span>▣</span>
+            <span>Quickstart</span>
+          </div>
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:bg-white/5 cursor-pointer">
+            ⚙ <span>Global Settings</span>
+          </div>
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:bg-white/5 cursor-pointer">
+            ✦ <span>AI Optimization</span>
+          </div>
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:bg-white/5 cursor-pointer">
+            ⬡ <span>Components</span>
+          </div>
+
+          <div class="flex items-center gap-3 px-4 py-3 rounded-xl text-white/70 hover:bg-white/5 cursor-pointer">
+            ◫ <span>Themes</span>
+          </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="border-t border-white/10 my-8"></div>
+
+        <!-- Lower Menu -->
+        <div class="space-y-2 text-[16px] text-white/50">
+
+          <div class="px-4 py-2 hover:text-white transition cursor-pointer">Navigation</div>
+          <div class="px-4 py-2 hover:text-white transition cursor-pointer">Versioning</div>
+          <div class="px-4 py-2 hover:text-white transition cursor-pointer">Custom Domain</div>
+          <div class="px-4 py-2 hover:text-white transition cursor-pointer">Web Editor</div>
+          <div class="px-4 py-2 hover:text-white transition cursor-pointer">Development</div>
+
+        </div>
+
+      </aside>
+
+      <!-- CONTENT -->
+      <main class="flex-1 p-8 lg:p-12">
+
+        <!-- Top Bar -->
+        <div class="flex items-center justify-between flex-wrap gap-4">
+
+          <!-- Tabs -->
+          <div class="flex items-center gap-8 text-lg">
+
+            <button class="text-emerald-400 relative pb-3 font-medium">
+              Guides
+              <span class="absolute left-0 bottom-0 w-full h-[2px] bg-emerald-400"></span>
+            </button>
+
+            <button class="text-white/40 hover:text-white transition">
+              API Reference
+            </button>
+
+            <button class="text-white/40 hover:text-white transition">
+              Changelog
+            </button>
+
+          </div>
+
+          <!-- Search -->
+          <div class="flex items-center gap-4">
+
+            <div class="hidden md:flex items-center gap-3 px-5 py-3 rounded-2xl bg-white/5 border border-white/10 text-white/40 w-[300px]">
+              🔍
+              <span>Search or ask</span>
+            </div>
+
+            <button class="px-5 py-3 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition">
+              ✦ Ask AI
+            </button>
+
+          </div>
+
+        </div>
+
+        <!-- Heading -->
+        <div class="mt-14">
+
+          <p class="text-emerald-400 text-lg mb-4">
+            Getting Started
+          </p>
+
+          <h2 class="text-5xl font-bold">
+            Quickstart Guide
+          </h2>
+
+          <p class="text-white/50 text-xl mt-4">
+            Start building intelligent documentation in under five minutes
+          </p>
+
+        </div>
+
+        <!-- Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-14">
+
+          <!-- Card -->
+          <div class="group">
+
+            <div class="h-[220px] rounded-3xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-500/10 flex items-center justify-center text-7xl">
+              🚀
+            </div>
+
+            <h3 class="text-3xl font-semibold mt-6">
+              Quickstart
+            </h3>
+
+            <p class="text-white/50 text-lg mt-3 leading-relaxed">
+              Deploy your first docs site in minutes with our step-by-step guide
+            </p>
+
+          </div>
+
+          <!-- Card -->
+          <div class="group">
+
+            <div class="h-[220px] rounded-3xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-500/10 flex items-center justify-center text-7xl">
+              🖥
+            </div>
+
+            <h3 class="text-3xl font-semibold mt-6">
+              Installation
+            </h3>
+
+            <p class="text-white/50 text-lg mt-3 leading-relaxed">
+              Install the CLI to preview and develop your docs locally
+            </p>
+
+          </div>
+
+          <!-- Card -->
+          <div class="group">
+
+            <div class="h-[220px] rounded-3xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-500/10 flex items-center justify-center text-7xl">
+              ✨
+            </div>
+
+            <h3 class="text-3xl font-semibold mt-6">
+              Web editor
+            </h3>
+
+            <p class="text-white/50 text-lg mt-3 leading-relaxed">
+              Make quick updates and manage content with our browser-based editor
+            </p>
+
+          </div>
+
+          <!-- Card -->
+          <div class="group">
+
+            <div class="h-[220px] rounded-3xl bg-gradient-to-br from-emerald-500/20 to-emerald-500/5 border border-emerald-500/10 flex items-center justify-center text-7xl">
+              ⬢
+            </div>
+
+            <h3 class="text-3xl font-semibold mt-6">
+              Components
+            </h3>
+
+            <p class="text-white/50 text-lg mt-3 leading-relaxed">
+              Build rich, interactive documentation with our ready-to-use components
+            </p>
+
+          </div>
+
+        </div>
+
+      </main>
+
+      <!-- RIGHT SIDEBAR -->
+      <aside class="w-[250px] border-l border-white/10 p-8 hidden xl:block">
+
+        <p class="text-white/40 uppercase text-sm tracking-widest mb-6">
+          On this page
+        </p>
+
+        <div class="space-y-5 text-lg">
+
+          <div class="text-emerald-400 border-l-2 border-emerald-400 pl-4">
+            Introduction
+          </div>
+
+          <div class="text-white/50 hover:text-white transition pl-4">
+            Getting started
+          </div>
+
+          <div class="text-white/50 hover:text-white transition pl-4">
+            AI optimization
+          </div>
+
+          <div class="text-white/50 hover:text-white transition pl-4">
+            Themes
+          </div>
+
+        </div>
+
+      </aside>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TRUSTED + AI SECTION -->
+<section class="relative bg-black text-white py-28 overflow-hidden">
+
+  <!-- Top Glow -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-emerald-500/10 blur-[140px] rounded-full"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+    <!-- LOGOS -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-y-20 gap-x-12 items-center justify-items-center">
+
+      <div class="text-5xl font-bold tracking-wide text-white/90">
+        ANTHROP\\C
+      </div>
+
+      <div class="text-6xl font-bold text-blue-500">
+        coinbase
+      </div>
+
+      <div class="flex items-center gap-4">
+        <div class="grid grid-cols-2 gap-1">
+          <div class="w-5 h-5 bg-orange-500"></div>
+          <div class="w-5 h-5 bg-green-400"></div>
+          <div class="w-5 h-5 bg-blue-500"></div>
+          <div class="w-5 h-5 bg-yellow-400"></div>
+        </div>
+
+        <span class="text-5xl font-semibold">
+          Microsoft
+        </span>
+      </div>
+
+      <div class="flex items-center gap-3">
+
+        <div class="w-10 h-10 border border-cyan-500 rotate-45"></div>
+
+        <span class="text-5xl font-medium text-white/90">
+          perplexity
+        </span>
+
+      </div>
+
+      <div class="text-5xl font-bold text-white/90">
+        HubSpot
+      </div>
+
+      <div class="flex items-center gap-4">
+
+        <div class="w-14 h-14 border-4 border-white rounded-lg flex items-center justify-center text-3xl font-bold">
+          N
+        </div>
+
+        <span class="text-5xl font-semibold">
+          Notion
+        </span>
+
+      </div>
+
+      <div class="text-5xl font-bold text-blue-500 italic">
+        PayPal
+      </div>
+
+      <div class="flex items-center gap-4">
+
+        <div class="w-8 h-8 rounded-full bg-gradient-to-br from-pink-500 to-orange-400"></div>
+
+        <span class="text-5xl font-semibold">
+          Lovable
+        </span>
+
+      </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="max-w-4xl mx-auto text-center mt-40">
+
+      <h2 class="text-5xl md:text-7xl font-bold tracking-tight leading-tight">
+        Built for the intelligence age
+      </h2>
+
+      <p class="text-white/60 text-xl md:text-2xl leading-relaxed mt-8">
+        Integrate AI into every part of your docs lifecycle.
+        Woven into how your knowledge is written,
+        maintained, and understood by both users and LLMs.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FEATURES GRID -->
+<section class="relative bg-black py-24 overflow-hidden">
+
+  <!-- Glow -->
+  <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-emerald-500/10 blur-[120px] rounded-full"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+    <!-- Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+
+      <!-- CARD 1 -->
+      <div class="relative rounded-[36px] border border-white/10 bg-[#050505] overflow-hidden min-h-[780px] p-10">
+
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 opacity-[0.04]"
+          style="
+            background-image:
+            linear-gradient(to right, white 1px, transparent 1px),
+            linear-gradient(to bottom, white 1px, transparent 1px);
+            background-size: 42px 42px;
+          ">
+        </div>
+
+        <div class="relative z-10">
+
+          <!-- Label -->
+          <p class="text-emerald-400 uppercase tracking-[0.3em] text-sm font-semibold">
+            LLMS.TXT & MCP
+          </p>
+
+          <!-- Heading -->
+          <h2 class="text-5xl md:text-6xl font-bold leading-tight mt-8">
+            Built for both people and AI
+          </h2>
+
+          <!-- Description -->
+          <p class="text-white/60 text-2xl leading-relaxed mt-8 max-w-2xl">
+            Ensure your product shows up in the AI workflows users already rely on.
+            We support llms.txt, MCP, and whatever comes next.
+          </p>
+
+          <!-- Illustration -->
+          <div class="relative mt-20 flex items-center justify-center">
+
+            <!-- Glow -->
+            <div class="absolute w-[320px] h-[320px] bg-emerald-500/10 blur-[100px] rounded-full"></div>
+
+            <!-- Back Card -->
+            <div class="absolute top-10 w-[420px] h-[220px] rounded-[30px] border border-white/10 bg-[#0c0c0c] rotate-2"></div>
+
+            <!-- Main Card -->
+            <div class="relative w-[460px] rounded-[32px] border border-white/10 bg-black p-8 shadow-2xl">
+
+              <!-- Top Bar -->
+              <div class="w-full h-10 rounded-2xl bg-emerald-400 flex items-center px-5 gap-3">
+
+                <div class="w-20 h-5 rounded-full bg-black/30"></div>
+                <div class="w-6 h-6 rounded-lg bg-black/30"></div>
+
+              </div>
+
+              <!-- Content -->
+              <div class="space-y-5 mt-8">
+
+                <div class="h-7 rounded-xl bg-white/5 w-[70%]"></div>
+
+                <div class="h-14 rounded-2xl bg-white/[0.04]"></div>
+
+              </div>
+
+              <!-- Button -->
+              <div class="flex justify-center mt-8">
+
+                <button class="px-6 py-3 rounded-2xl border border-white/20 bg-white/5 text-white font-medium hover:bg-white/10 transition">
+                  📄 COPY PAGE
+                </button>
+
+              </div>
+
+            </div>
+
+            <!-- Floating Icons -->
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-16 rounded-full bg-emerald-400 flex items-center justify-center text-black text-3xl shadow-xl">
+              ✦
+            </div>
+
+            <div class="absolute top-20 left-1/2 -translate-x-1/2 text-5xl text-emerald-400">
+              ▼
+            </div>
+
+            <div class="absolute bottom-0 right-[28%] text-7xl">
+              🖱
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="relative rounded-[36px] border border-white/10 bg-[#050505] overflow-hidden min-h-[780px] p-10">
+
+        <!-- Grid Pattern -->
+        <div class="absolute inset-0 opacity-[0.04]"
+          style="
+            background-image:
+            linear-gradient(to right, white 1px, transparent 1px),
+            linear-gradient(to bottom, white 1px, transparent 1px);
+            background-size: 42px 42px;
+          ">
+        </div>
+
+        <div class="relative z-10">
+
+          <!-- Label -->
+          <p class="text-emerald-400 uppercase tracking-[0.3em] text-sm font-semibold">
+            AGENT
+          </p>
+
+          <!-- Heading -->
+          <h2 class="text-5xl md:text-6xl font-bold leading-tight mt-8">
+            Self-updating knowledge management
+          </h2>
+
+          <!-- Description -->
+          <p class="text-white/60 text-2xl leading-relaxed mt-8 max-w-2xl">
+            Draft, edit, and maintain content with a context-aware agent.
+            Move faster and more consistently without the documentation debt.
+          </p>
+
+          <!-- Workflow Illustration -->
+          <div class="relative mt-28 flex items-center justify-center">
+
+            <!-- Horizontal Line -->
+            <div class="absolute h-[2px] w-[500px] bg-white/10"></div>
+
+            <!-- Circle 1 -->
+            <div class="relative z-10 w-24 h-24 rounded-full bg-emerald-400 flex items-center justify-center text-black text-5xl shadow-[0_0_40px_rgba(52,211,153,0.4)]">
+              ✓
+            </div>
+
+            <!-- Connector -->
+            <div class="w-24"></div>
+
+            <!-- Circle 2 -->
+            <div class="relative z-10 w-24 h-24 rounded-full bg-emerald-400 flex items-center justify-center text-black text-5xl shadow-[0_0_40px_rgba(52,211,153,0.4)]">
+              ✓
+            </div>
+
+            <!-- Connector -->
+            <div class="w-24"></div>
+
+            <!-- Circle 3 -->
+            <div class="relative z-10 w-24 h-24 rounded-full bg-emerald-400 flex items-center justify-center text-black text-5xl shadow-[0_0_40px_rgba(52,211,153,0.4)]">
+              ✦
+            </div>
+
+            <!-- Connector -->
+            <div class="w-24"></div>
+
+            <!-- Loading Circle -->
+            <div class="relative z-10 w-24 h-24 rounded-full border border-dashed border-white/20 flex items-center justify-center">
+
+              <div class="w-10 h-10 border-4 border-emerald-400 border-t-transparent rounded-full animate-spin"></div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- AI ASSISTANT SECTION -->
+<section class="relative bg-black py-28 overflow-hidden">
+
+  <!-- Background Glow -->
+  <div class="absolute top-40 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-emerald-500/10 blur-[160px] rounded-full"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-6">
+
+    <!-- Main Container -->
+    <div class="relative rounded-[42px] border border-white/10 bg-[#040404] overflow-hidden px-8 md:px-20 py-24">
+
+      <!-- Grid Pattern -->
+      <div
+        class="absolute inset-0 opacity-[0.04]"
+        style="
+          background-image:
+          linear-gradient(to right, white 1px, transparent 1px),
+          linear-gradient(to bottom, white 1px, transparent 1px);
+          background-size: 42px 42px;
+        ">
+      </div>
+
+      <!-- Header -->
+      <div class="relative z-10 text-center max-w-4xl mx-auto">
+
+        <!-- Label -->
+        <p class="text-emerald-400 uppercase tracking-[0.35em] text-sm font-semibold">
+          ASSISTANT
+        </p>
+
+        <!-- Heading -->
+        <h2 class="text-5xl md:text-7xl font-bold leading-tight mt-8">
+          Intelligent assistance for your users
+        </h2>
+
+        <!-- Description -->
+        <p class="text-white/60 text-2xl leading-relaxed mt-8">
+          Turn every documentation visit into a guided conversation.
+          Your AI assistant understands context and delivers what users need.
+        </p>
+
+      </div>
+
+      <!-- Dashboard Layout -->
+      <div class="relative z-10 mt-24 flex items-center justify-center">
+
+        <!-- Side Blur Left -->
+        <div class="absolute left-0 top-1/2 -translate-y-1/2 w-40 h-[320px] bg-gradient-to-r from-emerald-500/10 to-transparent blur-2xl"></div>
+
+        <!-- Side Blur Right -->
+        <div class="absolute right-0 top-1/2 -translate-y-1/2 w-40 h-[320px] bg-gradient-to-l from-emerald-500/10 to-transparent blur-2xl"></div>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center w-full max-w-6xl">
+
+          <!-- LEFT COLUMN -->
+          <div class="space-y-8">
+
+            <!-- Card -->
+            <div class="rounded-[28px] border border-white/10 bg-black/60 p-6">
+
+              <div class="text-white/40 text-sm tracking-[0.25em] uppercase">
+                Quick Start Guide
+              </div>
+
+              <div class="space-y-4 mt-8">
+
+                <div class="h-5 rounded-full bg-white/5"></div>
+                <div class="h-5 rounded-full bg-white/5 w-[70%]"></div>
+
+              </div>
+
+              <div class="grid grid-cols-3 gap-4 mt-8">
+
+                <div class="h-20 rounded-2xl bg-white/[0.04]"></div>
+                <div class="h-20 rounded-2xl bg-white/[0.04]"></div>
+                <div class="h-20 rounded-2xl bg-white/[0.04]"></div>
+
+              </div>
+
+            </div>
+
+            <!-- MCP CARD -->
+            <div class="rounded-[28px] border border-emerald-400 bg-black/70 p-6 shadow-[0_0_60px_rgba(52,211,153,0.08)]">
+
+              <div class="text-emerald-400 text-sm tracking-[0.25em] uppercase">
+                MCP SERVER
+              </div>
+
+              <div class="space-y-5 mt-8">
+
+                <div class="h-5 rounded-full bg-emerald-400"></div>
+                <div class="h-5 rounded-full bg-emerald-400 w-[80%]"></div>
+
+              </div>
+
+            </div>
+
+            <!-- Updates Card -->
+            <div class="rounded-[28px] border border-white/10 bg-black/60 p-6">
+
+              <div class="text-white/40 text-sm tracking-[0.25em] uppercase">
+                Updates
+              </div>
+
+              <div class="mt-8 h-24 rounded-2xl bg-white/[0.04] w-[50%]"></div>
+
+              <div class="space-y-4 mt-8">
+
+                <div class="h-4 rounded-full bg-white/5"></div>
+                <div class="h-4 rounded-full bg-white/5 w-[75%]"></div>
+                <div class="h-4 rounded-full bg-white/5 w-[60%]"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- CENTER COLUMN -->
+          <div class="flex justify-center">
+
+            <!-- AI CHAT WINDOW -->
+            <div class="relative w-full max-w-[420px] rounded-[36px] border border-emerald-400 bg-black shadow-[0_0_80px_rgba(52,211,153,0.15)] overflow-hidden">
+
+              <!-- Glow -->
+              <div class="absolute inset-0 bg-emerald-500/5"></div>
+
+              <div class="relative z-10 p-6">
+
+                <!-- Top -->
+                <div class="flex justify-end">
+
+                  <div class="w-40 h-14 rounded-2xl bg-white/[0.06]"></div>
+
+                </div>
+
+                <!-- Main Response -->
+                <div class="mt-6 h-24 rounded-[24px] bg-emerald-400"></div>
+
+                <!-- Input -->
+                <div class="mt-6 flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] px-5 py-4">
+
+                  <span class="text-white/40 text-lg">
+                    Ask AI anything...
+                  </span>
+
+                  <div class="w-8 h-8 rounded-full bg-emerald-400 flex items-center justify-center text-black">
+                    ↑
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- RIGHT COLUMN -->
+          <div class="space-y-8">
+
+            <!-- API Card -->
+            <div class="rounded-[28px] border border-white/10 bg-black/60 p-6">
+
+              <div class="text-white/40 text-sm tracking-[0.25em] uppercase">
+                API Reference
+              </div>
+
+              <div class="space-y-5 mt-8">
+
+                <div class="flex gap-4">
+
+                  <div class="h-5 rounded-full bg-white/5 w-20"></div>
+                  <div class="h-5 rounded-full bg-white/5 flex-1"></div>
+                  <div class="w-20 h-20 rounded-2xl bg-white/[0.04]"></div>
+
+                </div>
+
+                <div class="h-5 rounded-full bg-white/5 w-[70%]"></div>
+                <div class="h-5 rounded-full bg-white/5"></div>
+                <div class="h-5 rounded-full bg-white/5 w-[65%]"></div>
+
+              </div>
+
+            </div>
+
+            <!-- Insights -->
+            <div class="rounded-[28px] border border-white/10 bg-black/60 p-6 min-h-[280px]">
+
+              <div class="text-white/40 text-sm tracking-[0.25em] uppercase">
+                Insights
+              </div>
+
+              <!-- Chart -->
+              <div class="flex items-end gap-4 h-52 mt-10">
+
+                <div class="w-5 h-24 rounded-full bg-white/[0.05]"></div>
+                <div class="w-5 h-40 rounded-full bg-emerald-400"></div>
+                <div class="w-5 h-20 rounded-full bg-white/[0.05]"></div>
+                <div class="w-5 h-32 rounded-full bg-white/[0.05]"></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FINAL CTA SECTION -->
+
+<section class="bg-[#0b0c0d] text-white py-24 px-6 md:px-12 lg:px-24 font-sans">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-24">
+      <div class="max-w-2xl">
+        <p class="text-[#4ade80] text-xs font-bold tracking-[0.2em] uppercase mb-6">
+          Enterprise-Reinvention
+        </p>
+        <h2 class="text-4xl md:text-5xl font-bold tracking-tight leading-tight mb-6">
+          Bring intelligence to<br />enterprise knowledge
+        </h2>
+        <p class="text-gray-400 text-lg md:text-xl leading-relaxed">
+          Modernize without the rebuild with enterprise-grade professional service & security.
+        </p>
+      </div>
+
+      <div>
+        <button class="bg-white text-black px-8 py-3 rounded-full font-semibold text-sm hover:bg-gray-200 transition-colors">
+          Explore for enterprise
+        </button>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-x-16 gap-y-12">
+      
+      <div class="space-y-4">
+        <div class="w-10 h-10 flex items-center justify-center">
+          <svg viewBox="0 0 24 24" class="w-8 h-8 text-[#4ade80]" fill="currentColor">
+            <circle cx="12" cy="6" r="3" fill-opacity="0.4"/>
+            <circle cx="6" cy="18" r="3" fill-opacity="0.6"/>
+            <circle cx="18" cy="18" r="3" fill-opacity="0.8"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold tracking-tight">Build with partnership</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Direct, white-glove access to our documentation experts. Dedicated migration support and guidance tailored to your setup, and elevated support SLAs.
+        </p>
+      </div>
+
+      <div class="space-y-4">
+        <div class="w-10 h-10 flex items-center justify-center">
+          <div class="bg-[#1a2e25] p-2 rounded-lg">
+            <svg viewBox="0 0 24 24" class="w-6 h-6 text-[#4ade80]" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+        </div>
+        <h3 class="text-xl font-bold tracking-tight">Compliance and access control</h3>
+        <p class="text-gray-400 leading-relaxed">
+          Compliant with SOC 2, and in the process for ISO/27001 and GDPR compliance to meet your internal and external data requirements. Secure access and provisioning with SAML-based SSO.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="bg-[#0b0c0d] py-20 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="relative w-full aspect-[16/8] md:aspect-[21/9] rounded-3xl overflow-hidden group cursor-pointer">
+      <img 
+        src="your-illustration-path.jpg" 
+        alt="Anthropic Customer Story" 
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+      />
+      
+      <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/20 to-transparent"></div>
+
+      <div class="relative h-full flex flex-col justify-between p-8 md:p-12 lg:p-16">
+        <div>
+          <p class="text-white/70 text-[10px] font-bold uppercase tracking-[0.2em] mb-4">
+            Customer Story
+          </p>
+          <h2 class="text-white text-2xl md:text-3xl lg:text-4xl font-semibold max-w-md leading-tight mb-6">
+            See how Anthropic accelerates AI development with Mintlify
+          </h2>
+          <a href="#" class="text-white text-sm font-medium flex items-center gap-2 hover:underline">
+            Read story 
+            <span class="text-xs">→</span>
+          </a>
+        </div>
+
+        <div class="flex gap-12 md:gap-24 items-start">
+          <div class="space-y-1">
+            <p class="text-white text-3xl md:text-4xl font-bold tracking-tight">2M+</p>
+            <p class="text-white/60 text-[11px] md:text-xs leading-tight">Monthly active developers</p>
+          </div>
+          <div class="space-y-1">
+            <p class="text-white text-3xl md:text-4xl font-bold tracking-tight">3+</p>
+            <p class="text-white/60 text-[11px] md:text-xs leading-tight">
+              Products serviced: Claude<br class="hidden md:block" /> API, MCP, and Claude Code
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16 flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+      <img src="anthropic-logo.svg" alt="Anthropic" class="h-5 md:h-6 invert" />
+      <img src="coinbase-logo.svg" alt="Coinbase" class="h-5 md:h-6 invert" />
+      <img src="hubspot-logo.svg" alt="Hubspot" class="h-5 md:h-6 invert" />
+      <img src="zapier-logo.svg" alt="Zapier" class="h-5 md:h-6 invert" />
+      <img src="at-t-logo.svg" alt="AT&T" class="h-5 md:h-6 invert" />
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#0b0c0d] text-white py-24 px-6">
+  <div class="max-w-7xl mx-auto">
+    
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+        Loved by your favorite companies
+      </h2>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
+        From frontier AI companies to consumer brands, leaders across industries scale knowledge with Mintlify.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+      
+      <div class="group cursor-pointer">
+        <div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-white/5 bg-[#161b22]">
+          <img src="perplexity-bg.jpg" alt="Perplexity" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" />
+          <div class="absolute inset-0 flex items-center justify-center p-12">
+            <span class="text-white text-3xl font-bold tracking-tighter italic">perplexity</span>
+          </div>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed mb-4 line-clamp-2">
+          How Perplexity transformed its documentation into an AI-native developer experience that matches th...
+        </p>
+        <a href="#" class="text-emerald-400 font-medium text-sm flex items-center gap-1 hover:gap-2 transition-all">
+          Read story <span class="text-xs">›</span>
+        </a>
+      </div>
+
+      <div class="group cursor-pointer">
+        <div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-white/5 bg-[#161b22]">
+          <img src="x-bg.jpg" alt="X" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" />
+          <div class="absolute inset-0 flex items-center justify-center p-12">
+             <span class="text-white text-5xl font-serif">𝕏</span>
+          </div>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed mb-4 line-clamp-2">
+          How X is using Mintlify to power the developer experience for the global town square
+        </p>
+        <a href="#" class="text-gray-400 font-medium text-sm flex items-center gap-1 hover:text-white transition-all">
+          Read story <span class="text-xs">›</span>
+        </a>
+      </div>
+
+      <div class="group cursor-pointer">
+        <div class="relative aspect-video rounded-2xl overflow-hidden mb-6 border border-white/5 bg-[#161b22]">
+          <img src="kalshi-bg.jpg" alt="Kalshi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80" />
+          <div class="absolute inset-0 flex items-center justify-center p-12">
+            <span class="text-white text-4xl font-bold tracking-tight">Kalshi</span>
+          </div>
+        </div>
+        <p class="text-gray-400 text-sm leading-relaxed mb-4 line-clamp-2">
+          How Kalshi helps developers discover what's possible faster and ultimately drive broader...
+        </p>
+        <a href="#" class="text-gray-400 font-medium text-sm flex items-center gap-1 hover:text-white transition-all">
+          Read story <span class="text-xs">›</span>
+        </a>
+      </div>
+      
+    </div>
+
+    <div class="flex justify-center items-center gap-4">
+      <button class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-white/5 hover:bg-white/10 transition-colors">
+        <span class="text-gray-400">‹</span>
+      </button>
+      <button class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center bg-white hover:bg-gray-200 transition-colors">
+        <span class="text-black font-bold">›</span>
+      </button>
+    </div>
+
+  </div>
+</section>
+<section class="bg-[#0b0c0d] text-white py-32 px-6 border-t border-white/5">
+  <div class="max-w-7xl mx-auto flex flex-col items-center">
+    
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-8">
+        Make documentation<br />your winning advantage
+      </h2>
+      <p class="text-gray-400 text-lg mb-12">
+        Join the leaders of tomorrow to future proof your documentation today.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <button class="bg-white text-black px-8 py-3 rounded-full font-bold text-sm hover:bg-gray-200 transition-colors w-full sm:w-auto">
+          Get started for free
+        </button>
+        <button class="bg-transparent border border-white/20 text-white px-8 py-3 rounded-full font-bold text-sm hover:bg-white/5 transition-colors w-full sm:w-auto">
+          Get a demo
+        </button>
+      </div>
+    </div>
+
+    <div class="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 relative mt-12">
+      
+      <div class="hidden md:block absolute left-1/2 top-1/4 bottom-1/4 w-[1px] bg-gradient-to-b from-transparent via-white/10 to-transparent"></div>
+
+      <div class="flex flex-col items-center text-center p-12 group cursor-pointer">
+        <div class="w-12 h-12 bg-[#1a2e25] rounded-xl flex items-center justify-center mb-6 border border-emerald-500/20 group-hover:border-emerald-500/50 transition-colors">
+          <span class="text-emerald-400 text-xl">🏢</span>
+        </div>
+        <h3 class="text-xl font-bold mb-3">Pricing on your terms</h3>
+        <p class="text-gray-400 text-sm mb-6 max-w-[250px]">Pick the plan that works best for you</p>
+        <a href="#" class="text-emerald-400 text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all">
+          Pricing details <span class="text-xs">›</span>
+        </a>
+      </div>
+
+      <div class="flex flex-col items-center text-center p-12 group cursor-pointer">
+        <div class="w-12 h-12 bg-[#1a2e25] rounded-xl flex items-center justify-center mb-6 border border-emerald-500/20 group-hover:border-emerald-500/50 transition-colors">
+          <span class="text-emerald-400 text-xl">📖</span>
+        </div>
+        <h3 class="text-xl font-bold mb-3">Start building</h3>
+        <p class="text-gray-400 text-sm mb-6 max-w-[250px]">Deploy your documentation in minutes</p>
+        <a href="#" class="text-emerald-400 text-sm font-medium flex items-center gap-1 hover:gap-2 transition-all">
+          Quickstart <span class="text-xs">›</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer class="bg-[#0b0c0d] text-gray-400 py-16 px-6 border-t border-white/5">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex justify-between items-center mb-12">
+      <div class="flex items-center gap-2">
+        <div class="w-6 h-6 bg-emerald-500 rounded-full flex items-center justify-center">
+          <div class="w-3 h-3 bg-[#0b0c0d] rounded-full"></div>
+        </div>
+        <span class="text-white font-bold text-lg">mintlify</span>
+      </div>
+      
+      <div class="flex items-center gap-6 opacity-60">
+        <a href="#" class="hover:text-white transition-colors">LinkedIn</a>
+        <a href="#" class="hover:text-white transition-colors">𝕏</a>
+        <a href="#" class="hover:text-white transition-colors">GitHub</a>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-12 mb-20">
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-6 opacity-40">Explore</h4>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Startups</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Enterprise</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Switch</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">OSS Program</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Editor sandbox</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-6 opacity-40">Resources</h4>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Customers</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Pricing</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Guides</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Feature Requests</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-6 opacity-40">Documentation</h4>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Getting Started</a></li>
+          <li><a href="#" class="bg-white/5 text-white px-3 py-1.5 rounded-lg border border-white/10 inline-block -ml-3">API Reference</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Components</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Changelog</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-6 opacity-40">Company</h4>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Wall of Love</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-6 opacity-40">Legal</h4>
+        <ul class="space-y-4 text-sm">
+          <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Responsible Disclosure</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-white transition-colors">Security</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+      <div class="flex items-center gap-2 bg-white/5 border border-white/10 px-3 py-1.5 rounded-full text-xs font-medium">
+        <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+        <span class="text-white/90">All systems normal</span>
+      </div>
+
+      <p class="text-xs opacity-40">© 2026 Mintlify, Inc.</p>
+
+      <div class="flex items-center gap-1 bg-[#161b22] border border-white/10 p-1 rounded-full">
+        <button class="p-1.5 rounded-full bg-white/10 text-white"><svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0z"></path></svg></button>
+        <button class="p-1.5 rounded-full hover:text-white transition-colors"><svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 15a5 5 0 100-10 5 5 0 000 10z"></path></svg></button>
+        <button class="p-1.5 rounded-full hover:text-white transition-colors"><svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg></button>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
